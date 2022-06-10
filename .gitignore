@@ -1,0 +1,7 @@
+env
+.idea
+data/transactions_csv
+data/tables_intermediate
+data/tables_preprocessed
+data/tables_raw
+exploration/data/inventory

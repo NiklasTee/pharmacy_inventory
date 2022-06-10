@@ -1,0 +1,15 @@
+
+** ORDER FOR TRANSFERING RAW DATA (CSV-FILES) INTO RELATIONAL DATABASE **
+
+
+
+		     	creates 'tables_raw'				creates 'tables_intermediate'				creates 'tables_preprocessed'										inserts data into rDB
+extract_tables.py 	-------------------->	 merge_tables.py	----------------------------->	preprocess_tables.py	-----------------------------> enrich_tables.py	----------------------------->	insert_tables.sql	---------------------->	FINISHED
+
+														Ʌ
+														|
+														|
+					creates 'transactions.csv' in 'tables_intermediate'			|
+extract_transactions.py 	---------------------------------------------------------------------------------
+
+
